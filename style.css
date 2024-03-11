@@ -1,0 +1,116 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variabili */
+$primary-color: #006699;
+$secondary-color: #3399cc;
+
+/* Body */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Servizi e prestazioni */
+.servizi {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}
+
+/* Cerca */
+.cerca {
+  margin-bottom: 30px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  &:focus {
+    outline: none;
+    border-color: $primary-color;
+  }
+}
+
+button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: 1px solid $primary-color;
+  background-color: $primary-color;
+    color: #fff;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}
+
+/* In evidenza */
+.in-evidenza {
+  margin-bottom: 30px;
+}
+
+article {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  color: #666;
+}
